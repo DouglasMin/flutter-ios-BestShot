@@ -1,0 +1,63 @@
+name: app_name
+description: "Flutter iOS App — rename before release"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── UI ──────────────────────────────────────────────────────────────────────
+  cupertino_icons: ^1.0.8
+
+  # ── State management ────────────────────────────────────────────────────────
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # ── Navigation ──────────────────────────────────────────────────────────────
+  go_router: ^14.8.1
+
+  # ── Data / serialization ────────────────────────────────────────────────────
+  freezed_annotation: ^3.0.0
+  json_annotation: ^4.9.0
+
+  # ── Networking ──────────────────────────────────────────────────────────────
+  dio: ^5.8.0+1
+
+  # ── Storage ─────────────────────────────────────────────────────────────────
+  flutter_secure_storage: ^9.2.4
+  shared_preferences: ^2.5.3
+
+  # ── Utilities ───────────────────────────────────────────────────────────────
+  logger: ^2.5.0
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # ── Linting ─────────────────────────────────────────────────────────────────
+  flutter_lints: ^6.0.0
+  custom_lint: ^0.7.5
+  riverpod_lint: ^2.6.3
+
+  # ── Code generation ─────────────────────────────────────────────────────────
+  build_runner: ^2.4.15
+  riverpod_generator: ^2.6.4
+  freezed: ^3.0.0
+  json_serializable: ^6.9.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  # fonts:
+  #   - family: YourFont
+  #     fonts:
+  #       - asset: assets/fonts/YourFont-Regular.ttf
