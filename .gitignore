@@ -43,3 +43,14 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Local AI tooling/workspace metadata
+.claude/
+agents/
+AGENTS.md
+TODO.md
+DESIGN_REFACTOR.md
+WIDGET_SETUP.md
+mvp_guideline.md
+widget_guide_line.md
+scripts/

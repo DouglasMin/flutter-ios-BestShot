@@ -1,0 +1,180 @@
+{
+  "@@locale": "en",
+  "appName": "BestShot",
+  "commonRetry": "Retry",
+  "commonOk": "OK",
+  "commonCancel": "Cancel",
+  "commonStartOver": "Start Over",
+  "commonOpenSettings": "Open Settings",
+  "commonLoading": "Loading...",
+
+  "homeHeadline": "Pick your best\n4 shots today.",
+  "homeSubtitle": "Swipe fast, build a clean collage, and save instantly.",
+  "homeFeatureSwipeTitle": "Fast swipe review",
+  "homeFeatureSwipeSubtitle": "Right to keep, left to skip",
+  "homeFeatureLayoutTitle": "Auto layouts",
+  "homeFeatureLayoutSubtitle": "Choose 1x4 or 2x2 in seconds",
+  "homeStartPicking": "Start picking photos",
+  "homeReplayOnboarding": "View onboarding again",
+
+  "onboardingGatePreparing": "Preparing BestShot...",
+  "onboardingGateLoadError": "Could not load onboarding state.",
+
+  "onboardingIntroTitle": "Your Best 4, Instantly.",
+  "onboardingIntroSubtitle": "Swipe through your picks, keep only the strongest shots, and export a clean collage in seconds.",
+  "onboardingIntroCaption": "Built for fast daily curation.",
+  "onboardingIntroStart": "See How It Works",
+
+  "onboardingNavTitle": "Get Started",
+  "onboardingSkip": "Skip",
+  "onboardingStep1Title": "Pick your photos",
+  "onboardingStep1Description": "Choose photos from your library to review.",
+  "onboardingStep2Title": "Swipe to select",
+  "onboardingStep2Description": "Keep favorites and narrow down to top 4.",
+  "onboardingStep3Title": "Export collage",
+  "onboardingStep3Description": "Choose a layout, add caption, save or share.",
+  "onboardingAllowContinue": "Get Started",
+  "onboardingNext": "Next",
+  "onboardingErrorTitle": "Something went wrong",
+  "onboardingErrorMessage": "We could not complete onboarding. Please try again.",
+  "settingsOpenErrorTitle": "Could not open Settings",
+  "settingsOpenErrorMessage": "Please open iOS Settings manually and allow Photos access.",
+
+  "photoPickerNavTitle": "Photo Picker",
+  "photoPickerEmpty": "No photos found in your library.",
+  "photoPickerReviewSelected": "Review {count} selected photo(s)",
+  "@photoPickerReviewSelected": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "photoPickerInstruction": "Select photos from your library to start review.",
+  "photoPickerSelectPhotos": "Select Photos",
+  "photoPickerChangeSelection": "Change Selection",
+  "photoPickerCancelled": "No photos selected.",
+  "photoPickerFailed": "Could not open photo picker. Please try again.",
+
+  "swipeReviewNavTitle": "Swipe Review",
+  "swipeReviewNoSelectedTitle": "No photos were selected.",
+  "swipeReviewNoSelectedMessage": "Go back to Photo Picker and select photos first.",
+  "swipeReviewBackToPicker": "Back to Photo Picker",
+  "swipeReviewKeptProgress": "{keptCount}/{maxCount} kept",
+  "@swipeReviewKeptProgress": {
+    "placeholders": {
+      "keptCount": {"type": "int"},
+      "maxCount": {"type": "int"}
+    }
+  },
+  "swipeReviewPhotoIndex": "Photo {index} / {total}",
+  "@swipeReviewPhotoIndex": {
+    "placeholders": {
+      "index": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "swipeReviewComplete": "Review complete",
+  "swipeReviewCapturedAt": "Captured {value}",
+  "@swipeReviewCapturedAt": {
+    "placeholders": {
+      "value": {"type": "String"}
+    }
+  },
+  "swipeReviewHint": "Swipe right to Keep, left to Skip",
+  "swipeReviewUndo": "Undo",
+  "swipeReviewSkip": "Skip",
+  "swipeReviewKeep": "Keep",
+  "swipeDecisionKeepBadge": "KEEP",
+  "swipeDecisionSkipBadge": "SKIP",
+
+  "keptGridNavTitle": "Kept Grid",
+  "keptGridEmptyTitle": "No kept photos yet.",
+  "keptGridEmptyMessage": "Go back and keep up to 4 photos first.",
+  "keptGridBackToPicker": "Back to Photo Picker",
+  "keptGridSummary": "{count} kept photo(s)",
+  "@keptGridSummary": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "keptGridReady": "Great. You are ready to choose a layout.",
+  "keptGridNeedExactly4": "You need exactly 4 kept photos to continue.",
+  "keptGridProceedToLayout": "Proceed to Layout",
+  "keptGridRedoReview": "Redo Review",
+  "keptGridKeepTag": "Keep {index}",
+  "@keptGridKeepTag": {
+    "placeholders": {
+      "index": {"type": "int"}
+    }
+  },
+
+  "layoutSelectionNavTitle": "Layout Selection",
+  "layoutSelectionNeedExactly4Title": "Exactly 4 kept photos are required.",
+  "layoutSelectionNeedExactly4Message": "Go back and finish selection first.",
+  "layoutSelectionBackToKeptGrid": "Back to Kept Grid",
+  "layoutSelectionLoadError": "Could not load layout preference.",
+  "layoutSelectionTitle": "Choose your collage layout",
+  "layoutSelectionLastChoiceHint": "Your last choice is preselected.",
+  "layoutSelectionContinue": "Continue to Export",
+  "layoutVerticalTitle": "1x4 Vertical",
+  "layoutVerticalSubtitle": "Tall stack, story-friendly.",
+  "layoutGridTitle": "2x2 Grid",
+  "layoutGridSubtitle": "Balanced square, feed-friendly.",
+
+  "exportNavTitle": "Export",
+  "exportNeedExactly4Title": "Exactly 4 photos are required for export.",
+  "exportNeedExactly4Message": "Return to layout selection after choosing 4 kept photos.",
+  "exportBackToLayoutSelection": "Back to Layout Selection",
+  "exportLoadSettingsError": "Could not load export settings.",
+  "exportLayoutLabel": "Layout: {layout}",
+  "@exportLayoutLabel": {
+    "placeholders": {
+      "layout": {"type": "String"}
+    }
+  },
+  "exportCaptionPlaceholder": "Optional caption (single line)",
+  "exportNoPreview": "No render preview yet.\nTap Render Preview.",
+  "exportRenderPreviewButton": "Render Preview ({preset})",
+  "@exportRenderPreviewButton": {
+    "placeholders": {
+      "preset": {"type": "String"}
+    }
+  },
+  "exportSave": "Save",
+  "exportShare": "Share",
+  "exportStatusRendering": "Rendering collage...",
+  "exportStatusPreviewDone": "Preview rendered.",
+  "exportStatusSaving": "Saving to Photos...",
+  "exportStatusSaved": "Saved to Photos.",
+  "exportStatusPreparingShare": "Preparing share sheet...",
+  "exportStatusShared": "Share sheet opened.",
+  "exportShareText": "Made with BestShot",
+  "exportRenderFailedTitle": "Render failed",
+  "exportRenderFailedMessage": "Could not render collage: {error}",
+  "@exportRenderFailedMessage": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "exportSaveFailedTitle": "Save failed",
+  "exportSaveFailedMessage": "Could not save collage: {error}",
+  "@exportSaveFailedMessage": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "exportShareFailedTitle": "Share failed",
+  "exportShareFailedMessage": "Could not share collage: {error}",
+  "@exportShareFailedMessage": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "exportPermissionTitle": "Photos permission required",
+  "exportPermissionMessage": "BestShot needs permission to save exported images to your Photos.",
+
+  "resetConfirmTitle": "Start over?",
+  "resetConfirmMessage": "Current progress will be discarded and you will return to Photo Picker.",
+
+  "collageNavTitle": "Collage",
+  "collagePlaceholder": "Collage screen placeholder"
+}

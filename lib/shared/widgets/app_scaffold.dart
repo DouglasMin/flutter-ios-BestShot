@@ -1,37 +1,38 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 
-/// A wrapper around [Scaffold] with app-wide defaults applied.
+/// iOS-native scaffold using [CupertinoPageScaffold] + [CupertinoNavigationBar].
 class AppScaffold extends StatelessWidget {
   const AppScaffold({
     super.key,
     required this.body,
     this.title,
-    this.actions,
-    this.floatingActionButton,
-    this.bottomNavigationBar,
+    this.leading,
+    this.trailing,
+    this.backgroundColor,
     this.resizeToAvoidBottomInset = true,
   });
 
   final Widget body;
   final String? title;
-  final List<Widget>? actions;
-  final Widget? floatingActionButton;
-  final Widget? bottomNavigationBar;
+  final Widget? leading;
+  final Widget? trailing;
+  final Color? backgroundColor;
   final bool resizeToAvoidBottomInset;
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: title != null
-          ? AppBar(
-              title: Text(title!),
-              actions: actions,
+    return CupertinoPageScaffold(
+      backgroundColor: backgroundColor,
+      resizeToAvoidBottomInset: resizeToAvoidBottomInset,
+      navigationBar: title != null
+          ? CupertinoNavigationBar(
+              transitionBetweenRoutes: false,
+              middle: Text(title!),
+              leading: leading,
+              trailing: trailing,
             )
           : null,
-      body: SafeArea(child: body),
-      floatingActionButton: floatingActionButton,
-      bottomNavigationBar: bottomNavigationBar,
-      resizeToAvoidBottomInset: resizeToAvoidBottomInset,
+      child: SafeArea(child: body),
     );
   }
 }

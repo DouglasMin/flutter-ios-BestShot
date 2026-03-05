@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "BestShot";
+"NSPhotoLibraryUsageDescription" = "BestShot needs photo access so you can pick and review your best shots.";
+"NSPhotoLibraryAddUsageDescription" = "BestShot saves your exported collage to your photo library.";

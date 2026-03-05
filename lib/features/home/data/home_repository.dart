@@ -1,5 +1,5 @@
-import 'package:app_name/core/errors/app_exception.dart';
-import 'package:app_name/features/home/domain/home_model.dart';
+import 'package:bestshot/core/errors/app_exception.dart';
+import 'package:bestshot/features/home/domain/home_model.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'home_repository.g.dart';

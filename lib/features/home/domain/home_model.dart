@@ -4,7 +4,7 @@ part 'home_model.freezed.dart';
 part 'home_model.g.dart';
 
 @freezed
-class HomeModel with _$HomeModel {
+abstract class HomeModel with _$HomeModel {
   const factory HomeModel({
     required String id,
     required String title,

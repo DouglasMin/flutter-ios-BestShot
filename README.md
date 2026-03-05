@@ -1,4 +1,4 @@
-# app_name
+# BestShot
 
 Flutter iOS App
 

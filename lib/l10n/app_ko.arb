@@ -1,0 +1,180 @@
+{
+  "@@locale": "ko",
+  "appName": "BestShot",
+  "commonRetry": "다시 시도",
+  "commonOk": "확인",
+  "commonCancel": "취소",
+  "commonStartOver": "처음부터",
+  "commonOpenSettings": "설정 열기",
+  "commonLoading": "불러오는 중...",
+
+  "homeHeadline": "오늘의 베스트컷\n4장만 고르세요.",
+  "homeSubtitle": "스와이프로 빠르게 고르고, 깔끔한 콜라주로 바로 저장하세요.",
+  "homeFeatureSwipeTitle": "빠른 스와이프 선별",
+  "homeFeatureSwipeSubtitle": "오른쪽은 보관, 왼쪽은 건너뛰기",
+  "homeFeatureLayoutTitle": "자동 레이아웃",
+  "homeFeatureLayoutSubtitle": "1x4 또는 2x2를 바로 선택",
+  "homeStartPicking": "사진 고르기 시작",
+  "homeReplayOnboarding": "온보딩 다시 보기",
+
+  "onboardingGatePreparing": "BestShot 준비 중...",
+  "onboardingGateLoadError": "온보딩 상태를 불러오지 못했어요.",
+
+  "onboardingIntroTitle": "베스트컷 4장, 바로 완성.",
+  "onboardingIntroSubtitle": "고른 사진을 빠르게 넘기며 핵심만 남기고, 몇 초 만에 깔끔한 콜라주로 저장하세요.",
+  "onboardingIntroCaption": "매일 빠른 선별을 위해 설계했어요.",
+  "onboardingIntroStart": "작동 방식 보기",
+
+  "onboardingNavTitle": "BestShot 시작하기",
+  "onboardingSkip": "건너뛰기",
+  "onboardingStep1Title": "사진 고르기",
+  "onboardingStep1Description": "앨범에서 검토할 사진을 먼저 선택하세요.",
+  "onboardingStep2Title": "스와이프로 선별",
+  "onboardingStep2Description": "마음에 드는 사진은 보관하고, 최대 4장까지 추려요.",
+  "onboardingStep3Title": "콜라주로 내보내기",
+  "onboardingStep3Description": "레이아웃을 고르고 캡션과 함께 바로 저장하거나 공유해요.",
+  "onboardingAllowContinue": "시작하기",
+  "onboardingNext": "다음",
+  "onboardingErrorTitle": "문제가 발생했어요",
+  "onboardingErrorMessage": "온보딩을 완료하지 못했습니다. 다시 시도해 주세요.",
+  "settingsOpenErrorTitle": "설정을 열 수 없어요",
+  "settingsOpenErrorMessage": "iOS 설정 앱을 직접 열어 사진 접근 권한을 허용해 주세요.",
+
+  "photoPickerNavTitle": "사진 선택",
+  "photoPickerEmpty": "앨범에 사진이 없어요.",
+  "photoPickerReviewSelected": "선택한 {count}장 검토하기",
+  "@photoPickerReviewSelected": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "photoPickerInstruction": "앨범에서 사진을 선택해 검토를 시작하세요.",
+  "photoPickerSelectPhotos": "사진 선택",
+  "photoPickerChangeSelection": "선택 다시 하기",
+  "photoPickerCancelled": "선택된 사진이 없어요.",
+  "photoPickerFailed": "사진 선택기를 열지 못했어요. 다시 시도해 주세요.",
+
+  "swipeReviewNavTitle": "스와이프 검토",
+  "swipeReviewNoSelectedTitle": "선택된 사진이 없어요.",
+  "swipeReviewNoSelectedMessage": "사진 선택 화면으로 돌아가서 먼저 사진을 골라주세요.",
+  "swipeReviewBackToPicker": "사진 선택으로 이동",
+  "swipeReviewKeptProgress": "{keptCount}/{maxCount} 보관됨",
+  "@swipeReviewKeptProgress": {
+    "placeholders": {
+      "keptCount": {"type": "int"},
+      "maxCount": {"type": "int"}
+    }
+  },
+  "swipeReviewPhotoIndex": "사진 {index} / {total}",
+  "@swipeReviewPhotoIndex": {
+    "placeholders": {
+      "index": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "swipeReviewComplete": "검토 완료",
+  "swipeReviewCapturedAt": "촬영 시각 {value}",
+  "@swipeReviewCapturedAt": {
+    "placeholders": {
+      "value": {"type": "String"}
+    }
+  },
+  "swipeReviewHint": "오른쪽 스와이프는 보관, 왼쪽 스와이프는 건너뛰기",
+  "swipeReviewUndo": "되돌리기",
+  "swipeReviewSkip": "건너뛰기",
+  "swipeReviewKeep": "보관",
+  "swipeDecisionKeepBadge": "보관",
+  "swipeDecisionSkipBadge": "건너뜀",
+
+  "keptGridNavTitle": "보관한 사진",
+  "keptGridEmptyTitle": "아직 보관한 사진이 없어요.",
+  "keptGridEmptyMessage": "이전 단계로 돌아가 사진을 최대 4장 보관해 주세요.",
+  "keptGridBackToPicker": "사진 선택으로 이동",
+  "keptGridSummary": "보관 {count}장",
+  "@keptGridSummary": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "keptGridReady": "좋아요. 이제 레이아웃을 선택할 수 있어요.",
+  "keptGridNeedExactly4": "다음 단계로 가려면 정확히 4장이 필요해요.",
+  "keptGridProceedToLayout": "레이아웃 선택으로",
+  "keptGridRedoReview": "다시 고르기",
+  "keptGridKeepTag": "보관 {index}",
+  "@keptGridKeepTag": {
+    "placeholders": {
+      "index": {"type": "int"}
+    }
+  },
+
+  "layoutSelectionNavTitle": "레이아웃 선택",
+  "layoutSelectionNeedExactly4Title": "정확히 4장의 보관 사진이 필요해요.",
+  "layoutSelectionNeedExactly4Message": "이전 단계에서 4장을 먼저 선택해 주세요.",
+  "layoutSelectionBackToKeptGrid": "보관한 사진으로",
+  "layoutSelectionLoadError": "레이아웃 설정을 불러오지 못했어요.",
+  "layoutSelectionTitle": "콜라주 레이아웃을 선택하세요",
+  "layoutSelectionLastChoiceHint": "마지막으로 사용한 레이아웃이 선택되어 있어요.",
+  "layoutSelectionContinue": "내보내기 화면으로",
+  "layoutVerticalTitle": "1x4 세로형",
+  "layoutVerticalSubtitle": "스토리용으로 잘 맞는 세로 스택",
+  "layoutGridTitle": "2x2 그리드",
+  "layoutGridSubtitle": "피드용으로 깔끔한 정사각형 배치",
+
+  "exportNavTitle": "내보내기",
+  "exportNeedExactly4Title": "내보내려면 사진이 정확히 4장 필요해요.",
+  "exportNeedExactly4Message": "4장을 고른 뒤 레이아웃 선택 화면으로 돌아가 주세요.",
+  "exportBackToLayoutSelection": "레이아웃 선택으로",
+  "exportLoadSettingsError": "내보내기 설정을 불러오지 못했어요.",
+  "exportLayoutLabel": "레이아웃: {layout}",
+  "@exportLayoutLabel": {
+    "placeholders": {
+      "layout": {"type": "String"}
+    }
+  },
+  "exportCaptionPlaceholder": "캡션 입력 (선택)",
+  "exportNoPreview": "아직 미리보기가 없어요.\n미리보기 렌더링을 눌러주세요.",
+  "exportRenderPreviewButton": "미리보기 렌더링 ({preset})",
+  "@exportRenderPreviewButton": {
+    "placeholders": {
+      "preset": {"type": "String"}
+    }
+  },
+  "exportSave": "저장",
+  "exportShare": "공유",
+  "exportStatusRendering": "콜라주를 렌더링하는 중...",
+  "exportStatusPreviewDone": "미리보기를 생성했어요.",
+  "exportStatusSaving": "사진 앱에 저장하는 중...",
+  "exportStatusSaved": "사진 앱에 저장했어요.",
+  "exportStatusPreparingShare": "공유 시트를 준비하는 중...",
+  "exportStatusShared": "공유 시트를 열었어요.",
+  "exportShareText": "BestShot으로 만든 콜라주",
+  "exportRenderFailedTitle": "렌더링 실패",
+  "exportRenderFailedMessage": "콜라주를 렌더링하지 못했습니다: {error}",
+  "@exportRenderFailedMessage": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "exportSaveFailedTitle": "저장 실패",
+  "exportSaveFailedMessage": "콜라주를 저장하지 못했습니다: {error}",
+  "@exportSaveFailedMessage": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "exportShareFailedTitle": "공유 실패",
+  "exportShareFailedMessage": "콜라주를 공유하지 못했습니다: {error}",
+  "@exportShareFailedMessage": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "exportPermissionTitle": "사진 권한이 필요해요",
+  "exportPermissionMessage": "내보낸 이미지를 사진 앱에 저장하려면 접근 권한이 필요합니다.",
+
+  "resetConfirmTitle": "처음부터 다시 할까요?",
+  "resetConfirmMessage": "현재 진행 내용이 사라지고 사진 선택 화면으로 이동합니다.",
+
+  "collageNavTitle": "콜라주",
+  "collagePlaceholder": "콜라주 화면 준비 중"
+}

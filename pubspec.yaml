@@ -1,5 +1,5 @@
-name: app_name
-description: "Flutter iOS App — rename before release"
+name: bestshot
+description: "BestShot Flutter iOS App"
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -9,9 +9,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
 
   # ── UI ──────────────────────────────────────────────────────────────────────
   cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.17          # SVG 이미지 렌더링
+  cached_network_image: ^3.4.1  # 네트워크 이미지 캐싱 + placeholder
+  gap: ^3.0.1                   # SizedBox 대신 Gap(16) 형태로 간결하게
+  lottie: ^3.3.1                # Lottie 애니메이션 (.json)
+  flutter_animate: ^4.5.2       # 간결한 위젯 애니메이션 API
+  shimmer: ^3.0.0               # 스켈레톤 로딩 효과
 
   # ── State management ────────────────────────────────────────────────────────
   flutter_riverpod: ^2.6.1
@@ -30,10 +38,15 @@ dependencies:
   # ── Storage ─────────────────────────────────────────────────────────────────
   flutter_secure_storage: ^9.2.4
   shared_preferences: ^2.5.3
+  photo_manager: ^3.7.1
+  path_provider: ^2.1.5
+  image_picker: ^1.1.2
 
   # ── Utilities ───────────────────────────────────────────────────────────────
   logger: ^2.5.0
   intl: ^0.20.2
+  share_plus: ^10.1.2
+  home_widget: ^0.9.0
 
 dev_dependencies:
   flutter_test:
@@ -51,11 +64,13 @@ dev_dependencies:
   json_serializable: ^6.9.4
 
 flutter:
+  generate: true
   uses-material-design: true
 
   assets:
     - assets/images/
     - assets/icons/
+    - assets/fonts/
 
   # fonts:
   #   - family: YourFont
