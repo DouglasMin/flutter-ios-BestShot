@@ -29,7 +29,12 @@ class Vertical1x4CollagePainter extends CustomPainter {
 
     for (var index = 0; index < 4; index++) {
       final top = padding + index * (slotHeight + spacing);
-      final destinationRect = Rect.fromLTWH(padding, top, slotWidth, slotHeight);
+      final destinationRect = Rect.fromLTWH(
+        padding,
+        top,
+        slotWidth,
+        slotHeight,
+      );
 
       if (index >= images.length) {
         canvas.drawRRect(
